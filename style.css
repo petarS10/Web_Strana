@@ -1,0 +1,288 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    height: 100%;
+    background-size: cover;
+}
+
+
+
+  
+.wrapper
+{
+    width: 900px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20em; 
+}
+
+.single-price
+{
+    width: 230px;
+    bottom: 0;
+    z-index: 200;
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.5);
+    text-align: center;
+    transform: 0.9s;
+    background-color: purple;
+    
+}
+
+.single-price h1
+{
+    font-size: 23px;
+    line-height: 3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.price h2
+{
+    font-size: 39px;
+    text-align: center;
+    justify-content: center;
+}
+
+.price
+{
+    width: 120px;
+    height: 130px;
+    margin-left: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.deals
+{
+    margin-top: 10px;
+}
+
+.deals h4
+{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+button
+{
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+button:hover
+{
+    opacity: 0.6;
+}
+
+button:active
+{
+    opacity: 0.3;
+    transition: opacity 0.15s;
+}
+
+.banner
+{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar
+{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo
+{
+    width: 120px;
+
+}
+
+.navbar ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a
+{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;  
+}
+
+.navbar ul li::after
+{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:#9662d1 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.2s;
+
+}
+
+.navbar ul li:hover:after
+{
+    width: 100%;
+}
+
+.content
+{
+  width: 100%;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+  
+}
+
+.content h2
+{
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+.content p
+{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.enroll
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(119, 13, 151);
+    color: white;
+    margin-bottom: 200px;
+}
+
+.enroll:active
+{
+    opacity: 0.4;
+    transition: opacity 0.15s;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+.prices-container
+{
+    display: flex;
+}
+
+
+.contact-name
+{
+    position: sticky;
+}
+
+.contact-email
+{
+    position: sticky;
+}
+
+.contact-telephone
+{
+    position: sticky;
+    
+}
+
+.contact-message
+{
+    position: sticky;
+}
+
+input
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 200px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+
+.button-submit
+{
+    background-color: rgb(95, 90, 90);
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    position: sticky;
+    bottom: 0;
+    right: 45%;
+    left: 47%;
+    z-index: 50;
+    margin-top: 10px;
+}
+
+.contact h2
+{
+    text-align: start;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.contact h3{
+    margin-bottom: 10px;
+}
+
+.copyright
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
